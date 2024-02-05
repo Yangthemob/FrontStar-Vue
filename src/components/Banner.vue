@@ -2,8 +2,8 @@
 import { ref, onMounted } from 'vue';
 
 // 将文案分为两部分：'progressive'出现位置之前和之后
-const introTextBefore = ref('FrontStar aims to help you uncover and master the overlooked aspects of frontend development, through a minimal set of ');
-const introTextAfter = ref(' quizzes.');
+const introTextBefore = ref('FrontStar aims to help you uncover🔎 the overlooked aspects of frontend development, through a minimal set of ');
+const introTextAfter = ref(' quizzes📜.');
 const progressiveWord = ref(''); // 用于逐字添加'progressive'
 
 onMounted(() => {
@@ -18,7 +18,7 @@ onMounted(() => {
         clearInterval(interval);
       }
     }, 100); // 每200毫秒添加一个字符
-  }, 2000);
+  }, 1500);
 });
 </script>
 
