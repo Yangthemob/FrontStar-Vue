@@ -15,7 +15,7 @@
           />
           <FeatureCard
             title="Lazy & Easy✅"
-            description="All quiz can be completed with only clicks."
+            description="All quizzes can be completed in just a few clicks, no typing and calculating needed."
             imageUrl="FeaturesImg/Flat.png"
           />
         </div>
