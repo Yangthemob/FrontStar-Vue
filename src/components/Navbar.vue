@@ -11,11 +11,9 @@
             <!-- 右侧链接 -->
             <div class="flex space-x-4">
                 <!-- 链接占位符 -->
-                <a href="#" class="hover:text-gray-300 transition-colors duration-300">To Contribute</a>
+                <router-link to="contribute" class="hover:text-gray-300 transition-colors duration-300">To Contribute</router-link>
                 <!-- 更多链接 -->
             </div>
         </div>
     </nav>
 </template>
-  
-

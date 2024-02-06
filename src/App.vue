@@ -9,4 +9,7 @@ import Navbar from './components/Navbar.vue';
   <main>
     <router-view />
   </main>
+  <footer>
+    
+  </footer>
 </template>
